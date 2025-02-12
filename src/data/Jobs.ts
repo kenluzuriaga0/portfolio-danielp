@@ -21,6 +21,7 @@ interface WorkExperience {
     description: string;
     goals: string[];
     currentJob: boolean;
+    conclusion?: string;
 }
 
 /**
@@ -44,29 +45,47 @@ interface WorkExperience {
  */
 const workExperience:WorkExperience[] = [
     {
-        title: "Frontend Developer",
-        startDate: "2020-03-10",
-        company: "Google Inc",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NextJs, and Tailwind CSS.",
+        title: "Analista Tributario",
+        startDate: "2023-12-10",
+        company: "Mediken S.A",
+        location: "",
+        description: "",
         goals: [
-            "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-            "Worked with the team to develop and maintain web applications using React, NodeJs, and MongoDB.",
-            "Created and maintained web applications using React, NodeJs, and MongoDB.",
+            "Declaraciones y anexos que se presentan al Servicio de Rentas Internas.",
+            "Mantener al día el cumplimiento de las obligaciones entes de gobierno.",
+            "Supervisar que los asistentes contables hayan revisado y registrado correctamente los comprobantes de ventas recibidos.",
+            "Registro, control y depreciación de Activos Fijos.",
         ],
+        conclusion: "Logramos, en conjunto con el departamento de TI, reducir el tiempo y el margen de error que existía en la presentación de declaraciones de compras y ATS.",
         currentJob: true,
     },
     {
-        title: "Software Engineer",
-        startDate: "2018-03-10",
-        endDate: "2020-03-10",
-        company: "Company Name",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NodeJs, and MongoDB.",
+        title: "Asistente contable",
+        startDate: "2023-03-01",
+        endDate: "2023-11-10",
+        company: "Mediken S.A",
+        location: "",
+        description: "",
         goals: [
-            "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-            "Worked with the team to develop and maintain web applications using React, NodeJs, and MongoDB.",
-            "Created and maintained web applications using React, NodeJs, and MongoDB.",
+            "Recepción y revisión de facturas y documentos ingresados por el área de proveedores.",
+            "Registro de facturas de gastos administrativos, emisión de retenciones.",
+            "Elaboración de reporte para programación de pago a proveedores.",
+            "Conciliaciones bancarias y liquidaciones de Tc.",
+        ],
+        conclusion: "Se logró agilitar el proceso de revisión de facturas mediante la recepción de documentos digitales en reemplazo de los papeles impresos",
+        currentJob: false,
+    },
+    {
+        title: "Asistente de Pagaduría",
+        startDate: "2021-06-01",
+        endDate: "2023-03-10",
+        company: "Mediken S.A",
+        location: "",
+        description: "",
+        goals: [
+            "Recepción de factura de proveedores, revisión de documentos de soportes y liquidación de consumos de afiliados.",
+            "Emitir retenciones a facturas de proveedores médicos.",
+            "Controlar el consumo máximo por cobertura de los afiliados.",
         ],
         currentJob: false,
     },

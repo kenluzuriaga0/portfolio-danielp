@@ -1,42 +1,42 @@
 export const SITE = {
     website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
-    title: "Simple Portfolio",
+    title: "Daniel Pacheco",
     description: "A simple but beautiful portfolio created with Astro",
     tags: ["portfolio", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
     logo: "logo",
-    logoText: "Portfolio",
-    lang: "en",
+    logoText: "Daniel Pacheco",
+    lang: "es",
     favicon: "/favicon.png",
     repository: "https://github.com/vito8916/simple-portfolio.git",
-    author: "Victor Alvarado",
+    author: "Daniel Pacheco Alvarado",
     profile: "https://victoralvarado.dev/",
 }
 
 export const ME = {
-    name: "VicBox Dot Dev",
-    profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp2.png",
+    name: "Daniel Pacheco Villalta",
+    profession: "Lcdo. en Contabilidad y Auditoría",
+    profileImage: "pp2.jpeg",
     profileFacts: [
-        {
-            value: 10,
-            description: "Years of Experience"
-        },
-        {
-            value: 5,
-            description: "Completed Projects"
-        },
-        {
-            value: 4,
-            description: "Satisfied Clients"
-        }
+        // {
+        //     value: 4,
+        //     description: "Años de experiencia"
+        // },
+        // {
+        //     value: 5,
+        //     description: "Completed Projects"
+        // },
+        // {
+        //     value: 10,
+        //     description: "Clientes satisfechos"
+        // }
     ],
     contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
-        resumeDoc: "resume.pdf",
+        email: "danielpacheco7500@gmail.com",
+        linkedin: "https://www.linkedin.com/in/danielpachecovillalta16/",
+        resumeDoc: "DanielPacheco-CV.pdf",
     },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
+    aboutMe: "Licenciado en contabilidad y auditoría, con amplia experiencia en cargos contable-financieros, elaboración de reportes, presentación de declaraciones de impuestos e información para los entes de control, pagos a proveedores y conciliación de cuentas. Me caracterizo por ser una persona entusiasta y analítica, en una constante búsqueda de la optimización de los procesos y los recursos."
 }
 
 export const SOCIALS = [
@@ -44,7 +44,7 @@ export const SOCIALS = [
         name: "Twitter",
         url: "https://twitter.com/vicbox.dev",
         icon: "twitter-x-fill",
-        show: true
+        show: false
     },
     {
         name: "Facebook",
@@ -56,13 +56,13 @@ export const SOCIALS = [
         name: "Instagram",
         url: "https://www.instagram.com/vicbox.dev",
         icon: "instagram-fill",
-        show: true
+        show: false
     },
     {
         name: "Youtube",
         url: "https://www.youtube.com/vicbox.dev",
         icon: "youtube-fill",
-        show: true
+        show: false
     },
     {
         name: "TikTok",
@@ -74,6 +74,6 @@ export const SOCIALS = [
         name: "GitHub",
         url: "https://github.com/vicbox.dev",
         icon: "github-fill",
-        show: true
+        show: false
     }
 ]

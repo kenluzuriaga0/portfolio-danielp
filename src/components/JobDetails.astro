@@ -13,6 +13,7 @@ interface Job {
     endDate: string;
     goals: string[];
     currentJob: boolean;
+    conclusion?: string;
 }
 
 const {jobData} = Astro.props;  // Ensure correct typing for the props
@@ -24,6 +25,7 @@ const {
     endDate,
     goals,
     currentJob,
+    conclusion,
 } = jobData as Job;
 
 ---
@@ -32,10 +34,10 @@ const {
     <h3 class="text-xl font-bold">{title}</h3>
     <div class="flex items-center gap-2">
         <Badge className="bg-primary-light dark:bg-primary-dark w-fit rounded-md whitespace-nowrap	">
-            {formatDatetime(startDate)} - {currentJob ? "Present" : formatDatetime(endDate)}
+            {formatDatetime(startDate)} - {currentJob ? "Presente" : formatDatetime(endDate)}
         </Badge>
         <p class="truncate">{company}</p>
-        <span class="text-sm font-bold">/</span>
+        <span class="text-sm font-bold"></span>
         <p class="truncate">{location}</p>
     </div>
     <ul style="list-style: disc;">
@@ -43,4 +45,5 @@ const {
                 <li>{goal}</li>
         ))}
     </ul>
+    <strong>{conclusion}</strong>
 </div>

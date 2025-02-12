@@ -8,10 +8,10 @@ export default {
 			screens: {
 				sm: "100%",
 				md: "100%",
-				lg: "520px",
-				xl: "620px"
+				lg: "580px",
+				xl: "700px"
 			},
-			padding: '2rem',
+			padding: '0rem',
 		},
     	extend: {
     		borderRadius: {
